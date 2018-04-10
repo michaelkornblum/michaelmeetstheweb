@@ -1,0 +1,24 @@
+{
+  "name": "michaelmeetstheweb",
+  "version": "1.0.0",
+  "description": "the development blog of Michael Kornblum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkornblum/michaelmeetstheweb.git"
+  },
+  "keywords": [
+    "blog",
+    "gulp",
+    "metalsmith"
+  ],
+  "author": "Michael Kornblum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelkornblum/michaelmeetstheweb/issues"
+  },
+  "homepage": "https://github.com/michaelkornblum/michaelmeetstheweb#readme"
+}
