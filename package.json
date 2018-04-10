@@ -1,0 +1,33 @@
+{
+  "name": "michaelmeetstheweb",
+  "version": "1.0.0",
+  "description": "the blog of Michael Kornblum",
+  "main": "build.js",
+  "dependencies": {
+    "metalsmith": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkornblum/michaelmeetstheweb.git"
+  },
+  "keywords": [
+    "blog",
+    "gulp4",
+    "metalsmith",
+    "netlify"
+  ],
+  "author": "Michael Kornblum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelkornblum/michaelmeetstheweb/issues"
+  },
+  "homepage": "https://github.com/michaelkornblum/michaelmeetstheweb#readme"
+}
