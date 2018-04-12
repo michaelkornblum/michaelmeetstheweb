@@ -1,9 +1,15 @@
+- const pepBoys = helpers._.reverse(['Manny', 'Moe', 'Jack']);
+
 doctype html
 html
   head
-    title= title
-    meta(name="author" content=author)
+    title= site.title
+    meta(name="author" content=site.author)
   body
     div!= contents
-    p= greeter('michael')
+    p= helpers.greeter(site.author)
+    ul The Pepboys
+      each pepBoy in pepBoys
+        li= pepBoy
+
     

@@ -5,8 +5,7 @@ const jquery = require('metalsmith-jquery');
 const permalinks = require('metalsmith-permalinks');
 const layouts = require('metalsmith-layouts');
 const siteConfig = require('./configs/site-config');
-const _ = require('lodash');
-const moment = require('moment');
+
 
 const greeter = name => `hello, ${name}`;
 
