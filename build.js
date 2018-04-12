@@ -11,7 +11,7 @@ const moment = require('moment');
 const greeter = name => `hello, ${name}`;
 
 metalsmith(__dirname)
-  .metadata({ greeter })
+  .metadata(siteConfig)
   .source('./src')
   .destination('./build')
   .clean(true)
@@ -20,10 +20,6 @@ metalsmith(__dirname)
     engine: 'pug',
     default: 'default.pug',
     pretty: true,
-    moment,
-    _,
-    greeter,
-    test: 'i am testing',
   }))
   .build((err) => {
     if (err) throw err;
