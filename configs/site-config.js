@@ -1,8 +1,6 @@
 const _ = require('lodash');
 const moment = require('moment');
 
-const greeter = name => `Hello, ${name}`;
-
 module.exports = {
   site: {
     siteName: 'Michael Meets the Web',
@@ -15,6 +13,5 @@ module.exports = {
   helpers: {
     _,
     moment,
-    greeter,
   },
 };
