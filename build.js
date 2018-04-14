@@ -12,14 +12,16 @@ metalsmith(__dirname)
       pattern: 'posts/**/*.md',
       sortBy: 'date',
       reverse: true,
-    }
+    },
   }))
   .use(collections({
     pages: {
       pattern: 'pages/**/*.md',
-    }
+    },
   }))
-  .use(markdown())
+  .use(markdown({
+    gfm: true,
+  }))
   .use(permalinks())
   .use(layouts({
     engine: 'pug',
