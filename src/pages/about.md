@@ -2,4 +2,4 @@
 title: about
 ---
 
-h1= title
+This page is about me.
